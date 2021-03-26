@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://re-crm-backend.herokuapp.com/new_lead";
+const BASE_URL = "https://re-crm-backend.herokuapp.com";
 
 async function submitOfferToAPI(data) {
     try {
