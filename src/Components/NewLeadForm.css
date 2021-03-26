@@ -1,0 +1,8 @@
+.NewLeadForm-row {
+    position: relative;
+    z-index: 4;
+}
+
+.NewLeadForm-submit-container {
+    max-width: 525px;
+}

@@ -1,0 +1,99 @@
+.HomePage {
+  display: block;
+}
+
+.HomePage-house {
+  text-align: center;
+  justify-content: center;
+}
+
+.HomePage-house {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Images/terrah-holly-pmhdkgRCbtE-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.HomePage-getOffer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  top: 400px;
+}
+
+.HomePage-getOffer-btn {
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #B85237;
+  padding: 20px;
+  font-weight: bold;
+  box-shadow: 10px 10px 25px #0F2A3780, -10px -10px 25px #0F2A3780, -10px 10px 25px #0F2A3780, 10px -10px 25px #0F2A3780;
+}
+
+.HomePage-getOffer-btn:hover {
+  background-color: #91331a;
+}
+
+.HomePage-infobar {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #3F3D56;
+  width: 100%;
+  min-height: 311px;
+  text-align: center;
+}
+
+.HomePage-infobar-text {
+  position: relative;
+  font-size: 40px;
+  color: #FFFFFF;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.HomePage-steps {
+  background-color: #EEEEEE;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.HomePage-FAQ {
+  background-color: #3F3D56;
+  min-height: 1797px;
+}
+
+.HomePage-FAQ-title {
+  font-size: 11rem;
+  font-family: "Just_Another_Hand";
+  color: #F2F2F2;
+  position: relative;
+  left: 50px;
+  top: 150;
+}
+
+.HomePage-FAQ-facts {
+  background-color: #B8523799;
+}
+
+.HomePage-fact {
+  display: block;
+  color: #F2F2F2;
+  font-size: 40px;
+}
+
+.HomePage-fact-answer {
+  display: block;
+  margin-left: 80px;
+  margin-right: 40px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #F2F2F2;
+  font-size: 30px;
+}

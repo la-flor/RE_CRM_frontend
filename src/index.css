@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "Just_Another_Hand";
+  src: local("Just_Another_Hand", url(./Fonts/Just_Another_Hand/JustAnotherHand-Regular.ttf))
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #CC2F02F2;
+}
