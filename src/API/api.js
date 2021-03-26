@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
+const BASE_URL = "https://re-crm-backend.herokuapp.com/";
 
 async function submitOfferToAPI(data) {
     try {
