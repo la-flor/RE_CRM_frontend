@@ -26,6 +26,7 @@ exports[`it matches snapshot 1`] = `
           </label>
           <input
             class="form-control"
+            data-testid="first"
             name="first"
             type="text"
             value=""
@@ -38,6 +39,7 @@ exports[`it matches snapshot 1`] = `
           </label>
           <input
             class="form-control"
+            data-testid="last"
             name="last"
             type="text"
             value=""
@@ -50,6 +52,7 @@ exports[`it matches snapshot 1`] = `
           </label>
           <input
             class="form-control"
+            data-testid="email"
             name="email"
             type="text"
             value=""
@@ -62,6 +65,7 @@ exports[`it matches snapshot 1`] = `
           </label>
           <input
             class="form-control"
+            data-testid="phone"
             name="phone"
             type="text"
             value=""
@@ -83,6 +87,7 @@ exports[`it matches snapshot 1`] = `
           </label>
           <input
             class="form-control"
+            data-testid="address"
             name="address"
             type="text"
             value=""
@@ -95,6 +100,7 @@ exports[`it matches snapshot 1`] = `
           </label>
           <input
             class="form-control"
+            data-testid="city"
             name="city"
             type="text"
             value=""
@@ -107,6 +113,7 @@ exports[`it matches snapshot 1`] = `
           </label>
           <input
             class="form-control"
+            data-testid="state"
             name="state"
             type="text"
             value=""
@@ -119,6 +126,7 @@ exports[`it matches snapshot 1`] = `
           </label>
           <input
             class="form-control"
+            data-testid="zipcode"
             name="zipcode"
             type="text"
             value=""
@@ -133,6 +141,7 @@ exports[`it matches snapshot 1`] = `
         >
           <button
             class="NewLeadForm-submit-btn btn"
+            data-testid="NewLeadForm-submit-btn"
             type="submit"
           >
             Submit
