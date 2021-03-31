@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="NewLeadPage"
+  >
+    <div
+      class="NewLeadPage-banner m-5 px-5"
+    >
+      <span
+        class="NewLeadPage-title"
+      >
+        Ready to sell?
+      </span>
+      <span
+        class="NewLeadPage-linkhome"
+      >
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </span>
+    </div>
+    <div
+      class="NewLeadPage-form m-5 p-5 container-flex"
+    >
+      <div
+        class="NewLeadForm container p-xl-5"
+      >
+        <form
+          class="form-group"
+        >
+          <div
+            class="NewLeadForm-row row"
+          >
+            <div
+              class="col-lg px-lg-5 pb-5 pb-lg-0"
+            >
+              <h3
+                class="pb-lg-4 pb-3"
+              >
+                Contact Information
+              </h3>
+              <label
+                for="first"
+              >
+                First: 
+              </label>
+              <input
+                class="form-control"
+                name="first"
+                type="text"
+                value=""
+              />
+              <br />
+              <label
+                for="last"
+              >
+                Last: 
+              </label>
+              <input
+                class="form-control"
+                name="last"
+                type="text"
+                value=""
+              />
+              <br />
+              <label
+                for="email"
+              >
+                Email: 
+              </label>
+              <input
+                class="form-control"
+                name="email"
+                type="text"
+                value=""
+              />
+              <br />
+              <label
+                for="phone"
+              >
+                Phone: 
+              </label>
+              <input
+                class="form-control"
+                name="phone"
+                type="text"
+                value=""
+              />
+              <br />
+            </div>
+            <div
+              class="col-lg px-lg-5 pb-3 pb-lg-0"
+            >
+              <h3
+                class="pb-lg-4 pb-3"
+              >
+                Property Address
+              </h3>
+              <label
+                for="address"
+              >
+                Address: 
+              </label>
+              <input
+                class="form-control"
+                name="address"
+                type="text"
+                value=""
+              />
+              <br />
+              <label
+                for="city"
+              >
+                City: 
+              </label>
+              <input
+                class="form-control"
+                name="city"
+                type="text"
+                value=""
+              />
+              <br />
+              <label
+                for="state"
+              >
+                State: 
+              </label>
+              <input
+                class="form-control"
+                name="state"
+                type="text"
+                value=""
+              />
+              <br />
+              <label
+                for="zipcode"
+              >
+                Zip Code: 
+              </label>
+              <input
+                class="form-control"
+                name="zipcode"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="NewLeadForm-row row"
+          >
+            <div
+              class="NewLeadForm-submit-container col-md px-lg-5 pt-3"
+            >
+              <button
+                class="NewLeadForm-submit-btn btn"
+                type="submit"
+              >
+                Submit
+              </button>
+              <p
+                class="pt-3"
+              >
+                By submitting this form you are agreeing to allow our team to review your property information and contact you.
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+      <img
+        alt=""
+        class="NewLeadPage-sketch"
+        src="Home_sketch.png"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

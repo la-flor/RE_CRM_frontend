@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="HomePage"
+    >
+      <div
+        class="HomePage-house"
+      >
+        <div
+          class="navbar navbar-expand-lg align-bottom"
+        >
+          <span
+            class="navbar-title"
+          >
+            <img
+              alt="clock icon"
+              class="Navbar-clockIcon"
+              src="ClockIcon.png"
+            />
+            Is it time to sell?
+          </span>
+          <button
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler"
+            data-target="#navbarCollapse"
+            data-toggle="collapse"
+            type="button"
+          >
+            <span
+              class="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarCollapse"
+          >
+            <ul
+              class="navbar-nav ml-auto pr-5"
+            >
+              <li
+                class="nav-item"
+              >
+                <a
+                  class="nav-link"
+                >
+                  How It Works
+                </a>
+              </li>
+              <li
+                class="nav-item"
+              >
+                <a
+                  class="nav-link"
+                >
+                  FAQ
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="HomePage-getOffer col-sm-5"
+        >
+          <button
+            class="HomePage-getOffer-btn btn btn-block"
+          >
+            GET AN OFFER!
+          </button>
+        </div>
+      </div>
+      <div
+        class="HomePage-infobar"
+      >
+        <span
+          class="HomePage-infobar-text"
+        >
+          We buy homes in all conditions quickly without
+          <br />
+          all of the hassels of putting it on the market
+        </span>
+      </div>
+      <div
+        class="HomePage-steps"
+      >
+        <img
+          alt="Three easy steps: 1. Free Consultation 2. Firm Cash Offer 3. Fast Closing"
+          class="center"
+          src="EasySteps.jpg"
+        />
+      </div>
+      <div
+        class="HomePage-FAQ"
+      >
+        <h1
+          class="HomePage-FAQ-title p-5"
+        >
+          FAQ
+        </h1>
+        <div
+          class="HomePage-FAQ-facts p-5 m-5"
+        >
+          <span
+            class="HomePage-fact mx-3"
+          >
+            What class of home are you willing to buy?
+          </span>
+          <span
+            class="HomePage-fact-answer"
+          >
+            We buy all property types: single family, multi-family, condos, commercial, and more.
+          </span>
+          <span
+            class="HomePage-fact mx-3"
+          >
+            Do I need to do any improvements before I sell?
+          </span>
+          <span
+            class="HomePage-fact-answer"
+          >
+            No need for all of that hassel.  We’ll take it off of your hands and do any necessary work.
+          </span>
+          <span
+            class="HomePage-fact mx-3"
+          >
+            How fast can you purchase my home?
+          </span>
+          <span
+            class="HomePage-fact-answer"
+          >
+            We can purchase your home in as little as 3 days and also offer creative financing strategies.
+          </span>
+          <span
+            class="HomePage-fact mx-3"
+          >
+            What fees am I obligated to pay?
+          </span>
+          <span
+            class="HomePage-fact-answer"
+          >
+            No fees for you!  Our partners and team will pay all of the fees required in the sale.
+          </span>
+          <span
+            class="HomePage-fact mx-3"
+          >
+            How does the process of selling to you work?
+          </span>
+          <span
+            class="HomePage-fact-answer"
+          >
+            We do an initial consultation that will require either a home visit or exchange of a video walk-around.  Shortly after, we will provide you with a firm cash offer.  If accepted, we can schedule a quick closing and transfer of ownership.
+          </span>
+          <span
+            class="HomePage-fact mx-3"
+          >
+            Do I need a real estate agent?
+          </span>
+          <span
+            class="HomePage-fact-answer"
+          >
+            There is no need for a real estate agent and the aquisition of RE fees.  Our title company will assist with the legal aspect of the purchase.
+          </span>
+          <span
+            class="HomePage-fact mx-3"
+          >
+            My home is in forclosure, does that mean you can’t purchase it?
+          </span>
+          <span
+            class="HomePage-fact-answer"
+          >
+            We purchase homes in various financial situations.  This includes forclosures.
+          </span>
+          <span
+            class="HomePage-fact mx-3"
+          >
+            Why should I choose to sell to you?
+          </span>
+          <span
+            class="HomePage-fact-answer"
+          >
+            Our team will work effortlessly to see if we can find a solution for you.  We have more creative ways than the average investor can provide in finding a win-win situation.
+          </span>
+          <span
+            class="HomePage-fact mx-3"
+          >
+            What areas do you service?
+          </span>
+          <span
+            class="HomePage-fact-answer"
+          >
+            We service all areas of the United States!
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
