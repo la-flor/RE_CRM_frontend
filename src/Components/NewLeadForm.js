@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "./NewLeadForm.css";
-import submitOfferToAPI from "../API/api";
 import Alert from "../Helpers/Alert";
 
-const NewLeadForm = () => {
+const NewLeadForm = ({ submitOfferToAPI }) => {
 
     const INITIAL_DATA = {
         first: "",
@@ -46,12 +45,12 @@ const NewLeadForm = () => {
         <div className="NewLeadForm container p-xl-5">
 
             {formErrors.length
-                ? <Alert type="danger" messages={formErrors} />
+                ? <Alert type="danger" messages={formErrors} testId="errorsAlert" />
                 : null}
 
             {saveConfirmed
                 ?
-                <Alert type="success" messages={["Updated successfully."]} />
+                <Alert type="success" messages={["Updated successfully."]} testId="successAlert" />
                 : null}
             <form className="form-group">
                 <div className="NewLeadForm-row row">
@@ -64,6 +63,7 @@ const NewLeadForm = () => {
                             value={formData.first}
                             onChange={handleChange}
                             className="form-control"
+                            data-testid="first"
                         />
                         <br />
 
@@ -74,6 +74,7 @@ const NewLeadForm = () => {
                             value={formData.last}
                             onChange={handleChange}
                             className="form-control"
+                            data-testid="last"
                         />
                         <br />
 
@@ -84,6 +85,7 @@ const NewLeadForm = () => {
                             value={formData.email}
                             onChange={handleChange}
                             className="form-control"
+                            data-testid="email"
                         />
                         <br />
 
@@ -94,6 +96,7 @@ const NewLeadForm = () => {
                             value={formData.phone}
                             onChange={handleChange}
                             className="form-control"
+                            data-testid="phone"
                         />
                         <br />
                     </div>
@@ -108,6 +111,7 @@ const NewLeadForm = () => {
                             value={formData.address}
                             onChange={handleChange}
                             className="form-control"
+                            data-testid="address"
                         />
                         <br />
 
@@ -118,6 +122,7 @@ const NewLeadForm = () => {
                             value={formData.city}
                             onChange={handleChange}
                             className="form-control"
+                            data-testid="city"
                         />
                         <br />
 
@@ -128,6 +133,7 @@ const NewLeadForm = () => {
                             value={formData.state}
                             onChange={handleChange}
                             className="form-control"
+                            data-testid="state"
                         />
                         <br />
 
@@ -138,13 +144,14 @@ const NewLeadForm = () => {
                             value={formData.zipcode}
                             onChange={handleChange}
                             className="form-control"
+                            data-testid="zipcode"
                         />
                     </div>
                 </div>
 
                 <div className="NewLeadForm-row row">
                     <div className="NewLeadForm-submit-container col-md px-lg-5 pt-3">
-                        <button type="submit" onClick={handleSubmit} className="NewLeadForm-submit-btn btn">Submit</button>
+                        <button type="submit" data-testid="NewLeadForm-submit-btn" onClick={handleSubmit} className="NewLeadForm-submit-btn btn">Submit</button>
                         <p className="pt-3">
                             By submitting this form you are agreeing to allow our team to review your property information and contact you.
                         </p>
