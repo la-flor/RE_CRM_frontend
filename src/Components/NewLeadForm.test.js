@@ -33,9 +33,9 @@ it("allows submission of all data", async () => {
   const lastInput = getByTestId("last");
   const emailInput = getByTestId("email");
   const phoneInput = getByTestId("phone");
-  const addressInput = getByTestId("address");
+  const addressInput = getByTestId("street");
   const cityInput = getByTestId("city");
-  const stateInput = getByTestId("state");
+  const stateInput = getByTestId("state_region");
   const zipcodeInput = getByTestId("zipcode");
 
   expect(firstInput).toBeInTheDocument();

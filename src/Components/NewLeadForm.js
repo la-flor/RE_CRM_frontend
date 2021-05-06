@@ -9,9 +9,9 @@ const NewLeadForm = ({ submitOfferToAPI }) => {
         last: "",
         email: "",
         phone: "",
-        address: "",
+        street: "",
         city: "",
-        state: "",
+        state_region: "",
         zipcode: ""
     }
 
@@ -104,14 +104,14 @@ const NewLeadForm = ({ submitOfferToAPI }) => {
 
                     <div className="col-lg px-lg-5 pb-3 pb-lg-0">
                         <h3 className="pb-lg-4 pb-3">Property Address</h3>
-                        <label htmlFor="address">Address: </label>
+                        <label htmlFor="street">Address: </label>
                         <input
-                            name="address"
+                            name="street"
                             type="text"
-                            value={formData.address}
+                            value={formData.street}
                             onChange={handleChange}
                             className="form-control"
-                            data-testid="address"
+                            data-testid="street"
                         />
                         <br />
 
@@ -128,12 +128,12 @@ const NewLeadForm = ({ submitOfferToAPI }) => {
 
                         <label htmlFor="state">State: </label>
                         <input
-                            name="state"
+                            name="state_region"
                             type="text"
-                            value={formData.state}
+                            value={formData.state_region}
                             onChange={handleChange}
                             className="form-control"
-                            data-testid="state"
+                            data-testid="state_region"
                         />
                         <br />
 
